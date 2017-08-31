@@ -1,0 +1,37 @@
+.flex-wrp{
+  height: 50px;
+  flex-direction:column;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 4px #aaa;
+}
+.logoImg{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+.flex-item{
+  float: left;
+}
+.flex-item > view{
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  border-left: 1px solid #ccc;
+  padding: 0px 10px;
+}
+.seachBtn{
+  margin-top: 10px;
+}
+.busline{
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+}
+.showMap{
+  width: 100%;
+  height: 600px;
+}
+#busMap{
+  width: 100%;
+  height: 100%;
+}

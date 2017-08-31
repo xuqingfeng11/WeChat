@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="section">
+<form bindsubmit="formSubmit" bindsubmit="sechSubmit">
+  <view class="flex-wrp">
+    <view class="flex-item">
+      <image class="logoImg" src="../../images/busIco.png"></image>
+    </view>
+    <view class="flex-item">
+      <view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            城市：{{array[index]}}
+            <input hidden="true" name="city" value="{{array[index]}}"/>
+          </view>
+        </picker>
+      </view>
+    </view>
+    <view class="flex-item">
+      <view>
+        <input class="busline" name="busNo" type="text" placeholder="查询线路" />
+      </view>
+    </view>
+    <view class="flex-item">
+      <view>
+        <button form-type="submit" class="seachBtn" type="primary" plain="true" size="mini">查询</button>
+      </view>
+    </view>
+  </view>
+</form>
+<view class="showMap">
+<!--<view wx:for="{{busArray}}">
+    {{item.stationNum}},{{item.name}}
+</view>-->
+  <map id="busMap" latitude="{{setPot[0]}}" longitude="{{setPot[1]}}" show-location markers="{{busLine}}"/>
+</view>
+</view>

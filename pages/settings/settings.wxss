@@ -1,0 +1,30 @@
+/* pages/settings/settings.wxss */
+.info-tip{
+  font-size: 28rpx;
+  color:#888888;
+  padding: 40rpx 10rpx;
+  display: block
+}
+.body{
+  background-color: #f7f5f5;
+  padding-bottom: 100rpx;
+}
+input,.info-text{
+  background-color: #fff;
+  padding: 5px 0px;
+  margin-top: 10rpx;
+  padding-left: 40rpx;
+  display: block
+}
+.completeBtn{
+  margin-top: 10%;
+  padding: 0px 60rpx;
+  width: 69%;
+ 
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}

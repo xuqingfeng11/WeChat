@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history",
+    "pages/bus/bus",
+    "pages/settings/settings"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我要打卡",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index-act.png"
+    },{
+      "pagePath": "pages/history/history",
+      "text": "历史记录",
+      "iconPath": "images/history.png",
+      "selectedIconPath": "images/history-act.png"
+    },{
+      "pagePath": "pages/bus/bus",
+      "text": "公交查询",
+      "iconPath": "images/bus.png",
+      "selectedIconPath": "images/bus-act.png"
+    }
+    ,{
+      "pagePath": "pages/settings/settings",
+      "text": "设置",
+      "iconPath": "images/settings.png",
+      "selectedIconPath": "images/settings-act.png"
+    }]
+  }
+}

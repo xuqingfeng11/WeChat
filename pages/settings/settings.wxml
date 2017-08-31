@@ -1,0 +1,41 @@
+<view>
+  <view  class="body {{show.complete}}">
+    <form bindsubmit="doCompelte">
+      <view>
+        <text class="info-tip">请输入真实姓名</text> 
+        <input type="text" name="name" placeholder="真实姓名" />
+      </view>
+
+      <view>
+        <text class="info-tip">请输入联系方式</text>
+        <input type="number" name="tel" placeholder="联系方式" />
+      </view>
+
+      <view>
+        <button type="primary" form-type="submit"  class="completeBtn"> 完善 </button>
+      </view>
+    </form>
+  </view>
+
+
+  
+  
+  <form bindsubmit="doCompelte">
+    <view  class="body {{show.info}}">
+        <view>
+          <text class="info-tip">真实姓名</text>
+          <input type="text" name="name" placeholder="真实姓名" value="{{emp.name}}" />
+        </view>
+
+        <view>
+          <text class="info-tip">联系方式</text>
+          <input type="number" name="tel" placeholder="联系方式" value="{{emp.tel}}" />
+        </view>
+
+        <view>
+          <button type="warn" form-type="submit" class="completeBtn"> 修改个人信息 </button>
+        </view>
+    </view>
+  </form>
+</view>
+

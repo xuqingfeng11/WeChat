@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+ <!-- 使用内置的事件 进行 bind 处理 -->
+  <!--<button type="default" bindtap="printNetWorkType">我要打卡</button>-->
+  <button type="default" bindtap="scan">我要打卡</button>
+</view>
